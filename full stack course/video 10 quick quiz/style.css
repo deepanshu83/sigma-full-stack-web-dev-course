@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+}
+
+pre{
+    font-size: large;
+}
+
+header{
+
+font-size: 45px ;
+
+font-weight: bold;
+
+background-color: rgb(180, 205, 179);
+
+width: 100%; /* Ensures it spans the full width */
+padding: 20px; /* Add some padding to give it space */
+
+}
+
+footer{
+
+    background-color: black;
+
+    color: whitesmoke ;
+
+    font-size: 20px ;
+
+    font-weight: bold;
+
+    width: 100%; /* Ensures it spans the full width */
+    padding: 40px; /* Add some padding to give it space */
+
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms-Let's learn it </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>
+            Form to apply for Study Subjects
+        </h1>
+        <br>
+        <form action="post">
+            <div>
+                <label for="username">Enter your username : </label>
+                <input type="text" id="username " name="Username" placeholder="Enter Your Username" autofocus>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="Email">Enter your Email : </label>
+                <input type="text" id="Email " name="Email" placeholder="Enter Your Email" required>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="password">Enter your password : </label>
+                <input type="password" name="password" placeholder="Enter Your Passward" id="password" pattern="[0-9]+  ">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="Gender">Gender : </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>    
+            </div>
+            
+            <br>
+            <br>
+            
+            <div>
+                <label for="Subjects">Subjects : </label>
+                <input type="checkbox" id="English" name="Subject" value="English">
+                <label for="English">English</label>
+                <input type="checkbox" id="Maths" name="Subject" value="Maths">
+                <label for="Maths">Maths</label>    
+                <input type="checkbox" id="SST" name="Subject" value="SST">
+        <label for="SST">SST</label>
+        <input type="checkbox" id="Science" name="Subject" value="Science">
+        <label for="Science">Science</label>    
+        <input type="checkbox" id="Hindi" name="Subject" value="Hindi">
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" id="Sanskrit" name="Subject" value="Sanskrit">
+        <label for="Sanskrit">Sanskrit</label>    
+    </div>
+    <br>
+    <br>
+   <div>
+       <label for="comment">Enter Your Valuable comment here :- </label>
+       <br>
+       <textarea name="comment" rows="3" cols="50" id="comment" >
+    </textarea>
+</div>
+<br>
+<br>
+<div>
+    
+    <label for="select">Select any one from these</label>
+    <br>
+    <select name="fruits" id="select">
+        <option value="name">None</option>
+        <option value="Apple">Apple</option>
+        <option value="Banana">Banana</option>
+        <option value="Mango">Mango</option>
+        
+    </select>
+</div>
+<br>
+<br>
+<h2>
+    Don't give Up , Always Consistent
+</h2>
+<br>
+<img height="200" src="image.webp" alt="Hardwork">
+<br>
+<br>
+
+<div>
+<label for="submit">You can Submit form here :- </label>
+ <input type="submit" value="submit" id="submit">
+</div>
+
+</form>
+</body>
+</html>
+<!-- avoid "<br>" tag for new line
+two types of method sfor making request in making form 
+1. post request it is for more data  
+2. get request it is for less data and we can not send paswords in it also 
+this information may be update more because acoordng to course i learn only thids till now
+-->
